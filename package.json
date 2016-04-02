@@ -1,0 +1,28 @@
+{
+  "name": "sverre.me",
+  "version": "1.0.0",
+  "description": "Static personal webpage",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sverrejb/sverre.me.git"
+  },
+  "author": "sverrejb@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sverrejb/sverre.me/issues"
+  },
+  "homepage": "https://github.com/sverrejb/sverre.me#readme",
+  "devDependencies": {
+    "git-scripts": "^0.2.1",
+    "surge": "^0.17.7"
+  },
+  "git": {
+  "scripts": {
+    "pre-push": "surge --project ./ --domain http://sverre.me"
+    }
+  }
+}
