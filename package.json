@@ -17,18 +17,22 @@
   "author": "Ryan Fitzgerald",
   "license": "MIT",
   "devDependencies": {
+    "git-scripts": "0.2.1",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^4.0.0",
     "gulp-plumber": "^1.1.0",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
     "gulp-uglify": "^3.0.0",
-    "surge": "latest",
-    "git-scripts": "0.2.1"
+    "gulp-watch": "^4.3.11",
+    "surge": "latest"
   },
   "git": {
     "scripts": {
       "pre-push": "surge --project ./ --domain sverre.me"
     }
+  },
+  "dependencies": {
+    "gulp-install": "^1.1.0"
   }
 }
