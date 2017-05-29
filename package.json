@@ -1,28 +1,27 @@
 {
-  "name": "sverre.me",
-  "version": "1.0.0",
-  "description": "Static personal webpage",
-  "main": "index.html",
+  "name": "devportfolio-template",
+  "version": "1.1.3",
+  "description": "",
+  "main": "js/scripts.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "gulp watch"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sverrejb/sverre.me.git"
-  },
-  "author": "sverrejb@gmail.com",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sverrejb/sverre.me/issues"
-  },
-  "homepage": "https://github.com/sverrejb/sverre.me#readme",
+  "keywords": [
+    "portfolio",
+    "personal",
+    "website",
+    "tech",
+    "coding",
+    "dev"
+  ],
+  "author": "Ryan Fitzgerald",
+  "license": "MIT",
   "devDependencies": {
-    "git-scripts": "^0.2.1",
-    "surge": "^0.17.7"
-  },
-  "git": {
-  "scripts": {
-    "pre-push": "surge --project ./ --domain http://sverre.me"
-    }
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0"
   }
 }
