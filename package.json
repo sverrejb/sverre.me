@@ -27,8 +27,8 @@
     "git-scripts": "0.2.1"
   },
   "git": {
-  "scripts": {
-    "pre-push": "surge --project ./ --domain sverre.me"
-  }
+    "scripts": {
+      "pre-push": "surge --project ./ --domain sverre.me"
+    }
   }
 }
