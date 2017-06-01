@@ -1,3 +1,3 @@
 # [Sverre.me](http://sverre.me)
 
-Static personal homepage made with [999.css](https://999.surge.sh/), hosted and deployed with [surge.sh](https://surge.sh/).
+Static portfolio. Template by [Ryan Fitzgerald](https://github.com/RyanFitzgerald/devportfolio-template), deployed and hosted with [surge.sh](https://surge.sh/).
