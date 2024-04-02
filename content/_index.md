@@ -1,7 +1,7 @@
 +++
 +++
 
-## Sverre Johann Bjørke
+# Sverre Johann Bjørke
 
 Litt om meg, CV etc
 
@@ -19,7 +19,7 @@ Explore our insightful blog posts on a variety of topics:
 
 Litt om
 
-# Skills
+## Skills
 
 ## Kontakt
 
