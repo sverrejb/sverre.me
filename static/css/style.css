@@ -104,3 +104,7 @@
 .webring {
   margin: .375rem;
 }
+
+.timestamp {
+  color: var(--accent)
+}
