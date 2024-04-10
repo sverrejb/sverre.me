@@ -3,5 +3,4 @@
 
 # Sverre Johann Bjørke
 
-Litt om meg, CV etc
-
+I am a dad, husband and software developer living in Trondheim, Norway. I love playing with tech, programming silly things and tinkering with hard- and software. I currently work as a consultant at Knowit. If for any reason you should want it, I have a somewhat updated [CV here](cv.pdf).

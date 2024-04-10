@@ -1,5 +1,6 @@
 +++
-title = "This very website"
+title="This very website"
+weight=1
 +++
 
 This is my little corner of the web. This site is built with Zola, a static site generator written in Rust. It is deployed to Netlify, wich is by far the most user friendly platform I have used. I have been a fan of static site generators and the first wave of "JAM-stack" architecture for a long time. Serving only static files makes sense in many cases, and much more often than it is done, I suspect. Unless your website contains live content, or is updated multiple times per hour, static sites have great benefits:
