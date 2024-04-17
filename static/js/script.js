@@ -16,7 +16,8 @@ const updateTheme = (isDarkMode) => {
     updateThemeIcon(isDarkMode);
 
     const metaThemeColor = document.querySelector('meta[name="theme-color"]');
-    metaThemeColor.setAttribute('content', isDarkMode ? '#222529' : '#EEEEEE');
+    const bgColor = style.getPropertyValue('--bg').trim();
+    metaThemeColor.setAttribute('content', bgColor);
 };
 
 // Function to toggle the theme
