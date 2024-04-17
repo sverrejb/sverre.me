@@ -14,6 +14,9 @@ const updateTheme = (isDarkMode) => {
     const theme = isDarkMode ? 'dark' : 'light';
     document.documentElement.setAttribute('data-theme', theme);
     updateThemeIcon(isDarkMode);
+
+    const metaThemeColor = document.querySelector('meta[name="theme-color"]');
+    metaThemeColor.setAttribute('content', isDarkMode ? '#222529' : '#EEEEEE');
 };
 
 // Function to toggle the theme
