@@ -1,5 +1,5 @@
 +++
-weight=10
+weight=0
 title="My old blog"
 date="2019-03-18"
 +++
