@@ -20,7 +20,7 @@ The first version was released with a single useful feature: telling the time.
 The application is written in Slint, which so far has been great to work with. It runs on a Raspberry Pi 3, stuck to the back of the screen.
 
 
-After a while, I added weather forecast and the newest XKCD strip. The individual components were pulled out into their own separate modules, and are updated by dedicated working threads. 
+After a while, I added weather forecast and the newest XKCD strip. The individual components were pulled out into separate modules, and are updated by dedicated worker threads. 
 
 {{ img(id="3.png", width=350) }}
 
