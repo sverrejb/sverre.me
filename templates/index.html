@@ -7,7 +7,7 @@
 <ul>
   {% set section = get_section(path="blog/_index.md") %}
   {% for page in section.pages | slice(end=5) %}
-  <li><a href="{{ page.permalink }}">{{ page.title}} <time class="timestamp">{{ page.date }}</time></a></li>
+  <li><a href="{{ page.permalink }}">{{ page.title}}</a> <time class="timestamp">{{ page.date }}</time></li>
   {% endfor %}
 </ul>
 
