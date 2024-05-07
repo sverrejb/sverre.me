@@ -4,9 +4,29 @@ weight=20
 date="2024-04-29"
 +++
 
+## Short version: 
+I made an info screen for the office. It currently looks like this:
+
+{{ rez(img_name="f.jpg", width=550, alt="Picture of info screen on wall") }}
+
+### I used:
+* Rust
+    * Slint
+    * Serde
+    * Reqwest
+    * Tokio
+    * Tide
+    * Cargo-zigbuild
+    * ... and more!
+* Github Actions
+* Raspberry Pi
+
+
+
+## Long version:
 When I was a student, we had an info screen showing bus times, the lunch menu, upcoming events, meeting room bookings and so on. There were several iterations of this, but the one in use during my time was a web application. It looked like this:
 
-{{ img(id="1.jpg", width=350) }}
+{{ img(id="1.jpg", width=350 ) }}
 
 What we don't see in this picture is the chunky computer on the floor that ran this thing. At the time, the first generation Raspberry Pi was out, but as the info screen featured some simple CSS animations, even a relatively simple web app was too much to handle. Later, when the Raspberry Pi 2 became available, I set up the screen to run on one. It worked well enough, but running an application (the info screen) within another application (the browser) seemed unnecessarily complex.
 
