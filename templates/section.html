@@ -14,7 +14,10 @@
 <ul class="title-list">
   {% for page in pages %}
   <li>
-    <a href="{{ page.permalink | safe }}">{{ page.title }}</a> <time class="timestamp">{{ page.date }}</time>
+    <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
+    {% if section.title == "Blog" %}
+    <time class="timestamp">{{ page.date }}</time>
+    {% endif %}
   </li>
   {% endfor %}
 </ul>
@@ -22,7 +25,7 @@
 {% if paginator %}
 <div class="accent-data">{% if paginator.previous %}<a href="{{ paginator.first }}">⥶</a> &nbsp <a
     href="{{ paginator.previous }}">
-    << /a>{% endif %} &nbsp {{ paginator.current_index }} / {{ paginator.number_pagers }} &nbsp {% if paginator.next
-      %}<a href="{{ paginator.next }}">></a> &nbsp <a href="{{ paginator.last }}">⥸</a>{% endif %}</div>
+  </a>{% endif %} &nbsp {{ paginator.current_index }} / {{ paginator.number_pagers }} &nbsp {% if paginator.next
+  %}<a href="{{ paginator.next }}">></a> &nbsp <a href="{{ paginator.last }}">⥸</a>{% endif %}</div>
 {% endif %}
 {% endblock content %}
