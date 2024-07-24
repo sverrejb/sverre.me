@@ -95,7 +95,7 @@
 <link rel="stylesheet" type="text/css" href="https://speyll.github.io/suCSS/suCSS-min.css" />
 <link rel="stylesheet" type="text/css" href="{{ get_url(path='css/style.css', trailing_slash=false) | safe }}" />
 {% endblock css %}
-<script src="https://unpkg.com/htmx.org@2.0.1"></script>
+<script src="{{ get_url(path='js/htmx.min.js', trailing_slash=false) | safe }}" defer></script>
 <script src="{{ get_url(path='js/script.js', trailing_slash=false) | safe }}" defer></script>
 <script defer src="https://eu.umami.is/script.js" data-website-id="423c7a24-1dc8-421e-9f54-0250faeaa9ed"></script>
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#EEEEEE" />
