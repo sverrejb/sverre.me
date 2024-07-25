@@ -16,7 +16,7 @@
   <li>
     <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
     {% if section.title == "Blog" %}
-    <time class="timestamp">{{ page.date }}</time>
+    <time class="timestamp">{{ page.date | date(format="%d. %b %Y")}}</time>
     {% endif %}
   </li>
   {% endfor %}
