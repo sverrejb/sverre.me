@@ -7,11 +7,11 @@ title="Mirroring your Android display to Mac or Linux"
 
 For a presentation, I needed to show the audience what was going on on my Android phone. I expected this to be easy, but I ended up spending more than enough time figuring it out.
 
-My first idea was to connect my phone to the projector using a USB-C to HDMI adapter. After testing with two different adapters, trawling the phone settings, and finally finding that [this (now deleted) ](https://en.wikipedia.org/wiki/List_of_devices_with_video_output_over_USB-C#Smartphones)Wikipedia[ article did](https://en.wikipedia.org/wiki/List_of_devices_with_video_output_over_USB-C#Smartphones) not list my phone,](https://en.wikipedia.org/wiki/List_of_devices_with_video_output_over_USB-C#Smartphones) I realized that direct video output was not an option.
+My first idea was to connect my phone to the projector using a USB-C to HDMI adapter. After testing with two different adapters, trawling the phone settings, and finally finding that [this (now deleted) Wikipedia Article ](https://en.wikipedia.org/wiki/List_of_devices_with_video_output_over_USB-C#Smartphones) did not list my phone, I realized that direct video output was not an option.
 
 My next attempt was to find an app that would let me accomplish my goal. Several alternatives exist, such as [Vysor](https://www.vysor.io/), [AirDroid](https://www.airdroid.com/) and [Droid@Screen](http://droid-at-screen.org/) among others. Vysor is capped at a low bandwidth unless you pay for the premium features, resulting in a low-resolution image. It also required installing an app on both my phone and computer. AirDroid was cumbersome to use, required me to register an account and also delivered sub-par resolution. Droid@Screen I could not even get to work on my Mac. Back to the googling board, then.
 
-Hidden in [an answer on the Android Stackexchange](https://android.stackexchange.com/a/154328/278658), with ten measly upvotes, I finally found my solution. It came in the most pleasing of forms, a simple combination of command line tools that can be run on your mac on linux laptop. It relies on Android Debug Bridge (adb), a tool that lets you interact with your phone using the terminal.
+Hidden in [an answer on the Android Stackexchange](https://android.stackexchange.com/a/154328/278658), with ten measly upvotes, I finally found my solution. It came in the most pleasing of forms, a simple combination of command line tools that can be run on your Mac or Linux laptop. It relies on Android Debug Bridge (adb), a tool that lets you interact with your phone using the terminal.
 
 `adb shell screenrecord --output-format=h264 — | ffplay -framerate 60 -probesize 32 -sync video -\`
 
