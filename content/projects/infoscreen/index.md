@@ -6,7 +6,7 @@ date="2024-04-29"
 
 Short version: I made an info screen for the office. It currently looks like this:
 
-{{ projectImage(img_name="https://github.com/Knowit-Objectnet/infoskjerm-trondheim/raw/main/screenshot.png", width=550, alt="Picture of info screen on wall" vw="100%") }}
+![](https://github.com/Knowit-Objectnet/infoskjerm-trondheim/raw/main/screenshot.png)
 
 **I used:**
 * Rust, with:
