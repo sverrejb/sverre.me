@@ -117,10 +117,3 @@ ul {
   width: 100%;
   display: block;
 }
-
-.project-image {
-  border-radius: 0;
-  border: 0;
-  max-width: 100%;
-  margin: 0 auto;
-}

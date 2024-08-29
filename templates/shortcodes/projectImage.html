@@ -1,6 +1,5 @@
 {% set resized = resize_image(format="webp", path=page.colocated_path ~ img_name, width=width, op="fit_width",
 quality=100) %}
-<a class="project-image" href="{{ img_name | safe }}">
-    <img {% if vw %}width="{{ vw }}" {% endif %} loading="lazy" class="project-image" alt="{{ alt }}"
-        src="{{ resized.url | safe }}" />
+<a hx-boost="false" class="project-image" href="{{ img_name | safe }}">
+    <img {% if vw %}width="{{ vw }}" {% endif %} loading="lazy" alt="{{ alt }}" src="{{ resized.url | safe }}" />
 </a>

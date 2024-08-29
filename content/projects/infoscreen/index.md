@@ -8,6 +8,8 @@ Short version: I made an info screen for the office. It currently looks like thi
 
 ![](https://github.com/Knowit-Objectnet/infoskjerm-trondheim/raw/main/screenshot.png)
 
+The code can be found [here](https://github.com/Knowit-Objectnet/infoskjerm-trondheim).
+
 **I used:**
 * Rust, with:
   * Slint
