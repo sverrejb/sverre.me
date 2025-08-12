@@ -62,7 +62,7 @@ I had to have some matching brake levers, and this turned out to be a bit more o
 
 {{ projectImage (img_name="5.jpg", alt="The cockpit of my ebike, showing the handlebars, bell, brake levers and grips", width=1000) }}
 
-# Tires, Mudguards
+### Tires, Mudguards
 
 Tires change a lot of a bike's appearance. They effectively convey the *intention* of the bike. Like how you can easily tell if a person is going on a mountain hike or to a nice dinner based on their shoes. The bike came with typical mountain bike tires, with a rough thread, made for gripping the surface. As this was going to be more of a city-bike riding on roads, I wanted something more sleek with less rolling resistance. As 26" is a more typical mountain bike size, the alternatives weren't many, but I found a pair of *Panaracer Hi-road 26x1.50.*
 
