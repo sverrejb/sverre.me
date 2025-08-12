@@ -118,6 +118,7 @@ ul {
   width: 100%;
   display: block;
   border-radius: 15px;
+  overflow: hidden;
 }
 
 .project-image-link img {
@@ -125,4 +126,9 @@ ul {
   height: auto;
   display: block;
   max-width: unset;
+  transition: transform 0.3s ease;
+}
+
+.project-image-link:hover img {
+  transform: scale(1.04);
 }
