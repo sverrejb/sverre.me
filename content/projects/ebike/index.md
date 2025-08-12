@@ -17,7 +17,7 @@ During the early days of the Covid-19 lockdowns I started the project of buildin
 
 ## The first attempt
 
-I scoured finn.no and happened on a conversion kit with everything needed, sans battery. Most importantly, it did not have a display, which would help with the stealth aspect. Jumping the gun without any planning, I bought the kit. While waiting for it to arrive, I spent my time browsing for a suitable bike to convert, as well as looking at similar projects on reddit and youtube. One in particular stood out, and I wanted to create something similar. [Reddit user PetyaLB's "Thaxted".](www.reddit.com/r/ebikes/comments/mrk9hy/three_speeds_and_looks_like_it_just_escaped_from/) 
+I scoured finn.no and happened on a conversion kit with everything needed, sans battery. Most importantly, it did not have a display, which would help with the stealth aspect. Jumping the gun without any planning, I bought the kit. While waiting for it to arrive, I spent my time browsing for a suitable bike to convert, as well as looking at similar projects on reddit and youtube. One in particular stood out, and I wanted to create something similar. [Reddit user PetyaLB's "Thaxted".](https://www.reddit.com/r/ebikes/comments/mrk9hy/three_speeds_and_looks_like_it_just_escaped_from/) 
 
 {{ projectImage (img_name="thaxted.jpg", alt="Vintage bike converted to an e-bike", width=1000) }}
 
@@ -31,7 +31,7 @@ After the bike arrived I quickly realized I had made my second mistake. Turns ou
 
 ## The first iteration
 
-I still wanted a "classical" looking bike, meaning no suspension, a frame with a horizontal top tube and slim, round tubes of steel, no bulky aluminum! I found a bike going for 200 NOK. An old 80's mountain bike from Merida. While more modern than the DBS, the shape of the frame looked about right, and it had 26" inch wheels. It was very well used, had a lot of problems with the gears and scratched paint, but seemed robust and suitable. I planned to have the frame sanded and powder coated at some time anyway, maybe in some retro-looking british racing green.
+I still wanted a "classical" looking bike, meaning no suspension, a frame with a horizontal top tube and slim, round tubes of steel, no bulky aluminum! I found a bike going for 200 NOK. An old 80's mountain bike from Merida. While more modern than the DBS, the shape of the frame looked about right, and it had 26" wheels. It was very well used, had a lot of problems with the gears and scratched paint, but seemed robust and suitable. I planned to have the frame sanded and powder coated at some time anyway, maybe in some retro-looking british racing green.
 
 {{ projectImage (img_name="merida.jpg", alt="The Merida bike before conversion", width=1000) }}
 
