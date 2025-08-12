@@ -60,7 +60,7 @@ The rear brake is a quirk of the 80's: a U-brake mounted under the chain stays. 
 
 I had to have some matching brake levers, and this turned out to be a bit more of a challenge than the rest. Bike brakes come in short and long pull variants. V-brakes have a greater mechanical advantage and pull more cable. U-brakes have a smaller mechanical advantage and require brake levers that pull less cable. After some research, I found out that some brake levers have a selectable pull-ratio by moving where the brake cable is attached to the lever. But I also wanted levers that matched the shiny metal finish of the rest of my setup. This narrowed the options down a lot. I almost gave up and was prepared to live with two different levers when I found the *Shimano BL-R780*'s that worked out both mechanically and aesthetically.
 
-{{ projectImage (img_name="5.jpg", alt="Picture the cockpit", width=1000) }}
+{{ projectImage (img_name="5.jpg", alt="The cockpit of my ebike, showing the handlebars, bell, brake levers and grips", width=1000) }}
 
 # Tires, Mudguards
 
