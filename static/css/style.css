@@ -121,6 +121,10 @@ ul {
   overflow: hidden;
 }
 
+.project-image-link:hover {
+  background-color: unset;
+}
+
 .project-image-link img {
   width: 100% !important;
   height: auto;
