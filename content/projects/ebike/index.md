@@ -7,7 +7,7 @@ date="2025-08-11"
 I use my DIY e-bike for getting around. The current iteration looks like this:
 
 
-{{ projectImage (img_name="1.jpg", alt="Picture of my home made e-bike", width=1000) }}
+{{ lightbox (img_name="1.jpg", alt="Picture of my home made e-bike", width=1000) }}
 
 I call this my "Dumb" e-bike because it is both a result of a lot of dumb decisions and mistakes (and lessons learned!), but also because it is the opposite of smart. There is no cloud service, required app or vendor lock-in. A lot of modern e-bikes become e-waste the second the manufacturer goes bankrupt. Others require proprietary parts or authorized dealers to repair. Not mine!
 
@@ -19,7 +19,7 @@ During the early days of the Covid-19 lockdowns I started the project of buildin
 
 I scoured finn.no and happened on a conversion kit with everything needed, sans battery. Most importantly, it did not have a display, which would help with the stealth aspect. Jumping the gun without any planning, I bought the kit. While waiting for it to arrive, I spent my time browsing for a suitable bike to convert, as well as looking at similar projects on reddit and youtube. One in particular stood out, and I wanted to create something similar. [Reddit user PetyaLB's "Thaxted".](https://www.reddit.com/r/ebikes/comments/mrk9hy/three_speeds_and_looks_like_it_just_escaped_from/) 
 
-{{ projectImage (img_name="thaxted.jpg", alt="Vintage bike converted to an e-bike", width=1000) }}
+{{ lightbox (img_name="thaxted.jpg", alt="Vintage bike converted to an e-bike", width=1000) }}
 
 But after a while I realized I had made a slightly stupid mistake, and the first of many! The kit I bought had a 26" wheel. And while 26" wheels are pretty common, they are first and foremost used on a lot of "offroad" and "hybrid" bikes. So that limited my options quite a bit. After a while I found a listing of a DBS *Golden Flash*. A bike that was very popular in the 70's. The listing said it had 26" wheels (foreshadowing...). While not very similar to the Thaxted-bike, I liked the orange metallic color and thought it would work well. So I bought it, and had it shipped to Trondheim. I didn't take any good pictures of it, so here is a random one I found:
 
