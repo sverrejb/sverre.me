@@ -1,6 +1,6 @@
 {% set resized = resize_image(format="webp", path=page.colocated_path ~ img_name, width=800, op="fit_width",
 quality=100) %}
-<a hx-boost="false" class="project-image-link" id="{{ img_name }}" href="#lightbox-{{ img_name }}">
+<a hx-boost="false" class="lightbox-image-link" id="{{ img_name }}" href="#lightbox-{{ img_name }}">
     <img width="100%" loading="lazy" alt="{{ alt }}" src="{{ resized.url | safe }}" />
 </a>
 {% if caption %}
@@ -8,6 +8,7 @@ quality=100) %}
 {% endif %}
 
 <dialog id="lightbox-{{img_name}}" class="lightbox">
+    <a class="close-background" href="#{{ img_name }}" title="Close image" role="button"></a>
     <img src="{{ img_name }}" loading="lazy" alt="Alt text is important.">
-    <a class="close" href="#{{ img_name }}" title="Close image" role="button">×</a>
+    <a class="close-button" href="#{{ img_name }}" title="Close image" role="button">×</a>
 </dialog>
