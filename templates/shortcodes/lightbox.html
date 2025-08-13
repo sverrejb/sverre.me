@@ -3,12 +3,19 @@ quality=100) %}
 <a hx-boost="false" class="lightbox-image-link" id="{{ img_name }}" href="#lightbox-{{ img_name }}">
     <img width="100%" loading="lazy" alt="{{ alt }}" src="{{ resized.url | safe }}" />
 </a>
+
+
+<a hx-boost="false" class="lightbox-image-link mobile" id="{{ img_name }}"
+    href="/{{ page.colocated_path ~ img_name | safe }}">
+    <img width="100%" loading="lazy" alt="{{ alt }}" src="{{ resized.url | safe }}" />
+</a>
+
 {% if caption %}
 <div class="caption">{{caption}}</div>
 {% endif %}
 
 <dialog id="lightbox-{{img_name}}" class="lightbox">
     <a class="close-background" href="#{{ img_name }}" title="Close image" role="button"></a>
-    <img src="{{ img_name }}" loading="lazy" alt="Alt text is important.">
+    <img src="/{{ page.colocated_path ~ img_name | safe }}" loading="lazy" alt="{{ alt }}">
     <a class="close-button" href="#{{ img_name }}" title="Close image" role="button">×</a>
 </dialog>
