@@ -24,7 +24,7 @@ I scoured finn.no and happened on a conversion kit with everything needed, sans 
 But after a while I realized I had made a slightly stupid mistake, and the first of many! The kit I bought had a 26" wheel. And while 26" wheels are pretty common, they are first and foremost used on a lot of "offroad" and "hybrid" bikes. So that limited my options quite a bit. After a while I found a listing of a DBS *Golden Flash*. A bike that was very popular in the 70's. The listing said it had 26" wheels (foreshadowing...). While not very similar to the Thaxted-bike, I liked the orange metallic color and thought it would work well. So I bought it, and had it shipped to Trondheim. I didn't take any good pictures of it, so here is a random one I found:
 
 
-{{ projectImage (img_name="flash.jpg", alt="'Borrowed' archival photo of a DBS Golden Flash", width=1000) }}
+{{ lightbox (img_name="flash.jpg", alt="'Borrowed' archival photo of a DBS Golden Flash", width=1000) }}
 
 
 After the bike arrived I quickly realized I had made my second mistake. Turns out bike wheel sizes are ... [complicated](https://www.sheldonbrown.com/tire-sizing.html), and 26" can refer to a lot of things. So while the motorized wheel I now had could technically fit, the rim diameter would be slightly smaller than the original wheels, meaning the brake calipers would not be able to reach the braking surface of the rim. After googling and reading a lot, I found out that there exists adapters that can effectively "move" the brake posts (the parts of the frame where typical bike brakes are attached). Unfortunately for me, this bike had a caliper brake mounted on a brake bridge between the seat stays. So my only option was a brake caliper with a longer reach. But one of those would have had less braking force, not a good option for an ebike! So after a lot of back and forth, I ended up looking for another used bike to convert.
@@ -33,11 +33,11 @@ After the bike arrived I quickly realized I had made my second mistake. Turns ou
 
 I still wanted a "classical" looking bike, meaning no suspension, a frame with a horizontal top tube and slim, round tubes of steel, no bulky aluminum! I found a bike going for 200 NOK. An old 80's mountain bike from Merida. While more modern than the DBS, the shape of the frame looked about right, and it had 26" wheels. It was very well used, had a lot of problems with the gears and scratched paint, but seemed robust and suitable. I planned to have the frame sanded and powder coated at some time anyway, maybe in some retro-looking british racing green.
 
-{{ projectImage (img_name="merida.jpg", alt="The Merida bike before conversion", width=1000) }}
+{{ lightbox (img_name="merida.jpg", alt="The Merida bike before conversion", width=1000) }}
 
 Converting the bike was easy enough, swap the wheel, attach the pedal assist sensor, run some wires. The biggest challenge was placing the battery. I ended up putting it and the motor controller in a big junction box I found. The water resistance and robust construction of the box would certainly be useful, as the battery itself is a shrink wrapped "softpack", and not the typical hard shell variant you see on store bought e-bikes. I added a power cutoff key so I can disable the bike as potential theft deterrent. I found a bike bag that fit the box *perfectly* and mounted it on the luggage rack. While not _invisible_ by any stretch, it is not a dead giveaway of an e-bike.
 
-{{ projectImage (img_name="2.jpg", alt="The battery pack", width=1000) }}
+{{ lightbox (img_name="2.jpg", alt="The battery pack", width=1000) }}
 
 The bike existed in this form for a year or so, before disaster struck. Something broke in the hub motor. I tried all I could to open the damn thing to see if it was repairable, but I was not able to. The outer casing was made from a cheap and soft alloy, so the tool-marks for where to apply a keyed tool became deformed. I ended up recycling (heh... ) it as metal scrap.
 
@@ -45,7 +45,7 @@ The bike existed in this form for a year or so, before disaster struck. Somethin
 
 While the hub motor was the more stealthy option, it came with some caveats. Not utilizing the mechanical leverage of a gear made it really bad for climbing hills, and not having a display with controllers to adjust power settings made it a very binary experience. Forgoing some of the stealth vision, I ended up ordering a Bafang conversion kit. Bafang is one of the most popular choices for DIY e-bikes, and they have also supplied the motors for many store bought e-bikes. Keeping it road-legal in Norway, I chose the Bafang BBS01B model since it is limited to 250 watts of output. After a little bit more involved installation than the hub motor, I got it working, and it has been running fine since. The kit came with the Eggrider V2 display, the sleekest option I have seen on the market. 
 
-{{ projectImage (img_name="4.jpg", alt="The Eggrider display mounted on my handlebars", width=1000) }}
+{{ lightbox (img_name="4.jpg", alt="The Eggrider display mounted on my handlebars", width=1000) }}
 
 ## Some details
 
@@ -53,14 +53,14 @@ Some of the parts on the bike I have swapped out or added for mostly aesthetic r
 
 ### The cockpit
 I swapped the straight mountain bike bars for some curved and raised bars in shiny silver for a more upright sitting position and a more vintage look. They were cheap from Biltema. I found a minimal old-school stem from "Humpert Ergotech" as well. The grips are Brooks' *Slender Leather Grips* in brown. The bell is *Brass Striker Bell* from Velo Orange.
-{{ projectImage (img_name="3.jpg", alt="Picture the cockpit", caption="Yes, I know the cabling is a mess...", width=1000) }}
+{{ lightbox (img_name="3.jpg", alt="Picture the cockpit", caption="Yes, I know the cabling is a mess...", width=1000) }}
 
 ### Brakes and levers
 The rear brake is a quirk of the 80's: a U-brake mounted under the chain stays. Not very easy to maintain or adjust, but pretty good stopping-wise. It is also not very visible. The front brake was originally a pair of cantilever-brakes in a matte silver finish. While they have some advantages, a pair of more recent V-brakes is more adjustable and less fiddly to maintain. I also wanted some brakes in shiny metal to match the rest of the parts on the handlebars. I ended up getting *Tektro M 530 Silver*.
 
 I had to have some matching brake levers, and this turned out to be a bit more of a challenge than the rest. Bike brakes come in short and long pull variants. V-brakes have a greater mechanical advantage and pull more cable. U-brakes have a smaller mechanical advantage and require brake levers that pull less cable. After some research, I found out that some brake levers have a selectable pull-ratio by moving where the brake cable is attached to the lever. But I also wanted levers that matched the shiny metal finish of the rest of my setup. This narrowed the options down a lot. I almost gave up and was prepared to live with two different levers when I found the *Shimano BL-R780*'s that worked out both mechanically and aesthetically.
 
-{{ projectImage (img_name="5.jpg", alt="The cockpit of my ebike, showing the handlebars, bell, brake levers and grips", width=1000) }}
+{{ lightbox (img_name="5.jpg", alt="The cockpit of my ebike, showing the handlebars, bell, brake levers and grips", width=1000) }}
 
 ### Tires, Mudguards
 

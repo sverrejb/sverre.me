@@ -137,10 +137,18 @@ ul {
   transform: scale(1.04);
 }
 
-/* lightbox stuff */
+/* ===================================
+   LIGHTBOX
+   =================================== */
 
-.lightbox a {
-  background-color: unset;
+/* Prevent body scroll when lightbox is open */
+body:has(dialog:target) {
+  overflow: hidden;
+}
+
+a[href^='#lightbox-'] {
+  all: unset;
+  cursor: zoom-in;
 }
 
 .lightbox-image-link {
@@ -151,17 +159,17 @@ ul {
   overflow: hidden;
 }
 
-
-body:has(dialog:target) {
-  overflow: hidden;
+.lightbox-image-link img {
+  width: 100% !important;
+  height: auto;
+  display: block;
+  max-width: unset;
+  transition: transform 0.3s ease;
 }
 
-
-a[href^='#lightbox-'] {
-  all: unset;
-  cursor: zoom-in;
+.lightbox-image-link:hover img {
+  transform: scale(1.04);
 }
-
 
 .lightbox {
   all: unset;
@@ -217,17 +225,7 @@ a[href^='#lightbox-'] {
   cursor: pointer;
 }
 
-.lightbox-image-link:hover img {
-  transform: scale(1.04);
+/* Reset lightbox link backgrounds */
+.lightbox a {
+  background-color: unset;
 }
-
-.lightbox-image-link img {
-  width: 100% !important;
-  height: auto;
-  display: block;
-  max-width: unset;
-  transition: transform 0.3s ease;
-}
-
-
-/* end lightbox */
