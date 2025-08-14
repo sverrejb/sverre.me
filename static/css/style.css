@@ -149,6 +149,7 @@ body:has(dialog:target) {
 a[href^='#lightbox-'] {
   all: unset;
   cursor: zoom-in;
+  scroll-margin-top: 25vh;
 }
 
 .lightbox-image-link {
