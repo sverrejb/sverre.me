@@ -1,12 +1,14 @@
-{% set resized = resize_image(format="webp", path=page.colocated_path ~ img_name, width=800, op="fit_width",
-quality=100) %}
+{% if page.colocated_path %}
+{% set image_path = page.colocated_path ~ img_name %}
+{% else %}
+{% set image_path = "images/" ~ img_name %}
+{% endif %}
+{% set resized = resize_image(format="webp", path=image_path, width=800, op="fit_width", quality=100) %}
 <a hx-boost="false" class="lightbox-image-link" id="{{ img_name }}" href="#lightbox-{{ img_name }}">
     <img width="100%" loading="lazy" alt="{{ alt }}" src="{{ resized.url | safe }}" />
 </a>
 
-
-<a hx-boost="false" class="lightbox-image-link mobile" id="{{ img_name }}"
-    href="/{{ page.colocated_path ~ img_name | safe }}">
+<a hx-boost="false" class="lightbox-image-link mobile" id="{{ img_name }}" href="{{ get_url(path=image_path) }}">
     <img width="100%" loading="lazy" alt="{{ alt }}" src="{{ resized.url | safe }}" />
 </a>
 
@@ -16,6 +18,6 @@ quality=100) %}
 
 <dialog id="lightbox-{{img_name}}" class="lightbox">
     <a class="close-background" href="#{{ img_name }}" title="Close image" role="button"></a>
-    <img src="/{{ page.colocated_path ~ img_name | safe }}" loading="lazy" alt="{{ alt }}">
+    <img src="{{ get_url(path=image_path) }}" loading="lazy" alt="{{ alt }}">
     <a class="close-button" href="#{{ img_name }}" title="Close image" role="button">×</a>
 </dialog>
