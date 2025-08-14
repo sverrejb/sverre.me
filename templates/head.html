@@ -28,18 +28,18 @@
 {# OG:IMAGE-stuff #}
 
 {% if page.extra.image and page.colocated_path%}
-{% set resized = resize_image(format="jpg", path=page.colocated_path ~ page.extra.image, width=500, op="fit_width",
-quality=100) %}
+{% set resized = resize_image(format="jpg", path=page.colocated_path ~ page.extra.image, width=1200, op="fit_width",
+quality=75) %}
 {% set image = resized.url %}
 
 {% elif page.extra.image and not page.colocated_path%}
-{% set resized = resize_image(format="jpg", path="images/" ~ page.extra.image, width=500, op="fit_width",
-quality=100) %}
+{% set resized = resize_image(format="jpg", path="images/" ~ page.extra.image, width=1200, op="fit_width",
+quality=75) %}
 {% set image = resized.url %}
 
 {% elif section.extra.image %}
-{% set resized = resize_image(format="jpg", path=section.extra.image, width=500, op="fit_width",
-quality=100) %}
+{% set resized = resize_image(format="jpg", path=section.extra.image, width=1200, op="fit_width",
+quality=75) %}
 {% set image = resized.url %}
 
 {% elif page.assets %}
@@ -47,8 +47,8 @@ quality=100) %}
 {% if asset is ending_with(".jpg") or asset is ending_with(".jpeg") or asset is ending_with(".png") or asset is
 ending_with(".webp") %}
 
-{% set resized = resize_image(format="jpg", path=asset, width=500, op="fit_width",
-quality=100) %}
+{% set resized = resize_image(format="jpg", path=asset, width=1200, op="fit_width",
+quality=75) %}
 
 {% set_global image = resized.url%}
 {% break %}
