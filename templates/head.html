@@ -80,6 +80,7 @@ quality=100) %}
 <meta name="description" content="{{ description }}">
 {% endif %}
 <meta property="og:type" content="website">
+<meta property="og:logo" content="{{ get_url(path=config.extra.favicon, trailing_slash=false) }}" />
 <meta property="og:url" content="{{ url | safe }}">
 {% if title %}
 <meta property="og:site_name" content="{{ config.title }}">

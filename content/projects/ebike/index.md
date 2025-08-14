@@ -2,6 +2,7 @@
 weight=50
 title="My dumb e-bike"
 date="2025-08-11"
+description="Building a stealth e-bike from scratch - no apps, no cloud services, no vendor lock-in. Just dumb decisions, hard lessons, and a bike that actually works."
 +++
 
 I use my DIY e-bike for getting around. The current iteration looks like this:
