@@ -6,7 +6,7 @@ date="2024-10-26"
 
 Short version: A friend and I made a simple tool for figuring out how much water of given temperatures to mix in order to reach a desired temperature:
 
-{{ projectImage(img_name="0.png", width=550, alt="Screenshot of calculator" vw="100%") }}
+{{ lightbox(img_name="0.png", width=1000, alt="Screenshot of calculator") }}
 
 It can be visited here: [https://water-mix-temp.fly.dev](https://water-mix-temp.fly.dev)
 
