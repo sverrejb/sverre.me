@@ -160,6 +160,7 @@ a[href^='#lightbox-'] {
 }
 
 .lightbox-image-link img {
+  opacity: unset;
   width: 100% !important;
   height: auto;
   display: block;
