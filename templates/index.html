@@ -4,7 +4,7 @@
 {{ section.content | safe }}
 
 <h2>Latest blog posts</h2>
-<p>Thought or experiences I have tried to put into words.</p>
+<p>Thoughts or experiences I have tried to put into words.</p>
 <ul>
   {% set section = get_section(path="blog/_index.md") %}
   {% for page in section.pages | slice(end=5) %}
