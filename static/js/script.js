@@ -34,7 +34,11 @@ const toggleTheme = () => {
 };
 
 // Event listener for theme toggle
-toggleButton.addEventListener('change', toggleTheme);
+document.addEventListener('change', function (e) {
+    if (e.target && e.target.id === 'theme-toggle') {
+        toggleTheme();
+    }
+});
 
 // Function to initialize the theme based on the stored preference
 const initializeTheme = () => {
