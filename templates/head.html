@@ -25,12 +25,17 @@
 {% set description = config.description | truncate(length=150) %}
 {% endif %}
 
+{# OG:IMAGE-stuff #}
 
-
-{% if page.extra.image %}
+{% if page.extra.image and page.colocated_path%}
 {% set image = get_url(path=page.colocated_path ~ page.extra.image, trailing_slash=false) %}
+
+{% elif page.extra.image and not page.colocated_path%}
+{% set image = get_url(path="images/" ~ page.extra.image, trailing_slash=false) %}
+
 {% elif section.extra.image %}
 {% set image = get_url(path=section.extra.image, trailing_slash=false) %}
+
 {% elif page.assets %}
 {% for asset in page.assets %}
 {% if asset is ending_with(".jpg") or asset is ending_with(".jpeg") or asset is ending_with(".png") or asset is
@@ -39,9 +44,10 @@ ending_with(".webp") %}
 {% break %}
 {% endif %}
 {% endfor %}
+
 {% endif %}
 
-
+{# //END OG:IMAGE-stuff #}
 
 {% if page.permalink %}
 {% set url = page.permalink %}

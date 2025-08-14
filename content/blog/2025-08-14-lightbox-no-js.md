@@ -1,5 +1,7 @@
 +++
 title="A lightbox feature for my website without using JavaScript"
+[extra]
+image="luna.jpg"
 +++
 
 While writing up the [e-bike](../../projects/ebike/) project page, I realized I wanted a way to pop out images in cases where the reader might want to take a closer look at things.
