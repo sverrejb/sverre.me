@@ -1,12 +1,12 @@
 +++
-title="Disabling bluetooth on a sleeping Mac, or: \"Why the fuck is this not a setting, Apple?\" - Part 73"
+title="Disabling bluetooth on a sleeping Mac, or: \"Why the fuck is this not a setting, Apple? - Part 73\""
 +++
 
 Here's another addition to my ever-growing collection of "things that should be simple but require scripting because Apple knows better than you." Bluetooth staying on when my Mac goes to sleep.
 
 ## The Problem
 
-Often I use my wireless headphones around the house while doing chores, and when walkin the dog around the block. And it is *super annoying* when I go in and out of bluetooth range of my macbook and the earphones anounce "Disconnected!" and "Connected!" reapeatedly. When my macbook is in sleep mode I obviously do not want to connect my earphones to it!
+Often I use my wireless headphones around the house while doing chores, and when walking the dog around the block. And it is *super annoying* when I go in and out of bluetooth range of my macbook and the earphones anounce "Disconnected!" and "Connected!" reapeatedly. When my macbook is in sleep mode I obviously do not want to connect my earphones to it!
 
 ## What Should Exist But Doesn't
 
