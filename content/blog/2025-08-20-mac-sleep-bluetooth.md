@@ -6,7 +6,7 @@ Here's another addition to my ever-growing collection of "things that should be 
 
 ## The Problem
 
-Often I use my wireless headphones around the house while doing chores, and when walking the dog around the block. And it is *super annoying* when I go in and out of bluetooth range of my macbook and the earphones anounce "Disconnected!" and "Connected!" reapeatedly. When my macbook is in sleep mode I obviously do not want to connect my earphones to it!
+Often I use my wireless headphones around the house while doing chores, and when walking the dog around the block. And it is *super annoying* when I go in and out of the bluetooth range of my macbook and the earphones announce "Disconnected!" and "Connected!" reapeatedly. When my macbook is in sleep mode I obviously do not want to connect my earphones to it!
 
 ## What Should Exist But Doesn't
 
@@ -49,6 +49,6 @@ Save these as `~/.sleep` and `~/.wakeup` respectively, make them executable with
 
 This is just another example of Apple's philosophy that they know what's best for you. Sometimes they are right, and their default settings often work well for most people. But when they're wrong, they really don't want you to be able to fix it.
 
-The irony is that macOS is supposedly the "pro" operating system, built for people who supposedly know what they're doing. Yet basic power management options are hidden behind the need for third-party tools and shell scripting.
+The irony is that macOS is supposedly the "pro" operating system, built for people who know what they're doing. Yet basic power management options require third-party tools and shell scripting.
 
 If you're dealing with the same Bluetooth annoyance, the scripts above should sort you out. And if you happen to work at Apple: please, just add the checkbox. We promise we won't hurt ourselves with it.

@@ -15,9 +15,9 @@ Building up my [e-bike](../ebike/) lit a bit of a fire in me, and I wanted anoth
 
 # Internal gear hubs
 
-I initially had no plans for it, but as the e-bike was using a derailleur for gearing, I thought it would be fun to get some experience with internally geared hubs on this one. IGHs are very cool pieces of technology, and offer a lot of benefits, and some drawbacks. Essentially a gearbox inside the wheel hub, the closed shell makes the maintenance requirement very low, as the gears are protected from the elements, dirt and impact. They also allow you to change gears while standing still, which is super neat when stopping for a red light or similar. The design is very discrete, and allow for a look almost as minimalistic as the single speed or fixie bikes. On the other hand, they typically have a lower gear range than regular gears, they are less efficient and quite a bit more heavy. And when/if they require maintenance, the job is a lot more complicated. There are high-end models, even *very* high-end, offering wider gear ranges higher efficiency, but I was on a budget, and that meant the good old Nexus 7 from Shimano.
+I initially had no plans for it, but as the e-bike was using a derailleur for gearing, I thought it would be fun to get some experience with internally geared hubs on this one. IGHs are very cool pieces of technology, and offer a lot of benefits, and some drawbacks. Essentially a gearbox inside the wheel hub, the closed shell makes the maintenance requirement very low, as the gears are protected from the elements, dirt and impact. They also allow you to change gears while standing still, which is super neat when stopping for a red light or similar. The design is very discrete, and allow for a look almost as minimalistic as the single speed or fixie bikes. On the other hand, they typically have a lower gear range than regular gear setups, they are less efficient and quite a bit more heavy. And when/if they require maintenance, the job is a lot more complicated. There are high-end models, even *very* high-end, offering wider gear ranges and higher efficiency. I, however, was on a budget, and that meant the good old Nexus 7 from Shimano.
 
-I started looking for someone selling parts, ideally a rear wheel and the gear shifter, but the only listings I found were unreasonably priced. Most whole bikes with the same parts were going for less. While it kind of pained me to butcher a working bike for parts, I bought a well used ladies bike and harvested the parts I wanted from it. Both wheels were transplanted, as well as the shifter. I realized that the donor bike had come with a coaster brake as well. This I had not considered, but it turned out great. I love the clean setup of the cockpit, and skidding while backpedalling triggers some childhood nostalgia.
+I started looking for someone selling parts, ideally a rear wheel and the gear shifter, but the only listings I found were unreasonably priced. Most complete bikes with the same parts on were going for less. While it kind of pained me to butcher a working bike for parts, I bought a well used ladies bike and harvested the parts I wanted from it. Both wheels were transplanted, as well as the shifter. I realized that the donor bike had come with a coaster brake as well. This I had not considered, but it turned out great. I love the clean setup of the cockpit, and skidding while backpedalling triggers some childhood nostalgia.
 
 {{ lightbox (img_name="2.jpg", alt="The bike as it looks now", width=1000) }}
 
@@ -48,9 +48,9 @@ Riding the bike to and from work I quickly ran into the limitation of the gear r
 
 In the future I want to get: 
 
-* Matching fenders - the rear one isn't shiny!
-* Better gears - The Nexus 7 is a workhorse, but the Nexus 8 offers quite a larger range, and also a gear that is direct drive, meaning there is no efficiency loss from moving parts. The Alfine hubs are also tempting me, especially the 11 gear one.
-* Proper lights - See and be seen!
+* Matching fenders - the rear one isn't shiny like the front!
+* More gears - The Nexus 7 is a workhorse, but the Nexus 8 offers quite a larger range, and also a gear that is direct drive, meaning there is no efficiency loss from moving parts. The Alfine hubs are also tempting me, especially the 11 gear one.
+* Proper lights. See and be seen!
 * A more retro looking shifter. The current twist shifter is very functional, but I think the look clashes a bit with the rest of the bike. 
 * Frame lock. I want a frame lock with an optional wire for locking the bike to stuff as well. Ideally one that can be keyed with a key I can use on more than one lock, so I don't have to carry around multiple keys.
 
@@ -58,4 +58,4 @@ and last, but not least:
 
 * Belt drive. 
 
-I am playing with the idea of trying to get a belt drive setup to work with this bike. It would either require some modifications to a seat stay to allow for opening and closing the frame, or getting the "Veer Split Belt" that allows for joining the belt together after threading it through the frame like a bike chain. This is probably a stupid idea, so I really want to do it.
+I am playing with the idea of trying to get a belt drive setup to work with this bike. It would either require some modifications to a seat stay to allow for opening and closing the frame, or getting the "Veer Split Belt" that allows for joining the belt together after threading it through the frame like a regular bike chain. This is probably a stupid idea, so I really want to do it.
