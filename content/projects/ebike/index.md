@@ -18,7 +18,7 @@ During the early days of the Covid-19 lockdowns I started the project of buildin
 
 ## The first attempt
 
-I scoured finn.no and happened on a conversion kit with everything needed, sans battery. Most importantly, it did not have a display, which would help with the stealth aspect. Jumping the gun without any planning, I bought the kit. While waiting for it to arrive, I spent my time browsing for a suitable bike to convert, as well as looking at similar projects on reddit and youtube. One in particular stood out, and I wanted to create something similar. [Reddit user PetyaLB's "Thaxted".](https://www.reddit.com/r/ebikes/comments/mrk9hy/three_speeds_and_looks_like_it_just_escaped_from/) 
+I scoured finn.no and happened on a conversion kit with everything needed, sans battery. Most importantly, it did not have a display, which would help with the stealth aspect. Jumping the gun without any planning, I bought the kit. While waiting for it to arrive, I spent my time browsing for a suitable bike to convert, as well as looking at similar projects on reddit and youtube. One in particular stood out, and I wanted to create something similar. [Reddit user PetyaLB's "Thaxted":](https://www.reddit.com/r/ebikes/comments/mrk9hy/three_speeds_and_looks_like_it_just_escaped_from/) 
 
 {{ lightbox (img_name="thaxted.jpg", alt="Vintage bike converted to an e-bike", width=1000) }}
 
