@@ -29,4 +29,4 @@ As the site grew and feature requests came in I changed it to use server side re
 
 Having worked mostly with React for frontend at that point, Svelte(kit) was nothing short of a revelation. Things made sense. The builds were small and loaded fast. The code was a joy to write, and not horrible to read after a few weeks. I still enjoy it, although I now prefer non-javascript/typescript when I can.
 
-There are still many things I want to with the site, but time is the most limited resource in my life in these days. Luckily others have joined in a bit in the development. 
+There are still many things I want to do with the site, but time is the most limited resource in my life in these days. Luckily others have joined in a bit in the development. 
