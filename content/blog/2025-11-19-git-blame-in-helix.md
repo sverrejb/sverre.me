@@ -11,7 +11,7 @@ Sometimes it is useful to see who lastly commited on a line, and more importantl
 B = ":echo %sh{commit=$(git blame -L %{cursor_line},%{cursor_line} --porcelain %{buffer_name} | sed -n '1s/ .*//p'); info=$(git show -s --format='%%an|%%s|%%ad' --date=format:'%%d. %%b %%Y' \"$commit\"); IFS='|' read -r name msg date <<<\"$info\"; printf '%%s - %%s - %%s' \"$name\" \"$msg\" \"$date\"}"
 ```
 
-See it in action here:
+See it in action here: (notice the status line change to a commit message at the end).
 
 <div id="demo"><noscript>
     <p>This terminal recording requires JavaScript to function properly.</p>
