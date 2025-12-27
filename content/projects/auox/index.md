@@ -6,7 +6,7 @@ description="Because everything is better in the terminal."
 draft=false
 +++
 
-Short version: I made a terminal banking client for my personal banking needs with Rust, Ratatui and the PSD2-API's of my bank. I call it Auox, short for Aurum Oxidatum, the pseudo-latin name for [gold oxide](https://en.wikipedia.org/wiki/Gold(III)_oxide), or "gold rust". 
+Short version: I made a terminal banking client for my personal banking needs with Rust, Ratatui and the PSD2-API's of my bank. I call it Auox, short for Aurum Oxidatum, a pseudo-latin name for [gold oxide](https://en.wikipedia.org/wiki/Gold(III)_oxide), or "gold rust". 
 The code is on [GitHub](https://github.com/sverrejb/auox) if you want to take a look.
 
 The application looks like this:
@@ -33,7 +33,7 @@ As all software, it is a work in progress, but it currently does what I most oft
 
 The app is made with [ratatui](https://github.com/ratatui/ratatui) for the TUI (Text-based User Interface, a bit more interactive than a CLI). Ratatui is a very active project, well documented and feature rich. The app is first set up, and then everything happens in a main loop where a frame is drawn, user input is registred and state is updated. The different application views and the movement between them I have attempted to model sort of like a state machine, with the current view applied to the top of a stack that can be popped to go up/back. 
 
-The OAuth flow for the banking API is pretty standard. It tries to use a stored access token first, then attempts to refresh it if expired, and only initiates a full OAuth flow if that fails. The full flow spawns a tiny HTTP server on port 8321 to catch the callback, then opens the browser for authentication. Most of the time you don't need to touch the browser at all, ideally only once a year.
+The OAuth flow for the banking API is pretty standard. It tries to use a stored access token first, then attempts to refresh it if expired, and only initiates a full OAuth flow if that fails. The full flow spawns a tiny HTTP server to catch the callback, then opens the browser for authentication. Most of the time I don't need to touch the browser at all, ideally only once a year.
 
 The SpareBank 1 API itself is straightforward, and pretty [well documented](https://developer.sparebank1.no/#/apis). The API for personal use is quite limited in scope, and allows for listing account details and transactions, as well as transfering money between accounts you own yourself.
 
