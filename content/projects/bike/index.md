@@ -50,7 +50,7 @@ In the future I want to get:
 
 * Matching fenders - the rear one isn't shiny like the front!
 * More gears - The Nexus 7 is a workhorse, but the Nexus 8 offers quite a larger range, and also a gear that is direct drive, meaning there is no efficiency loss from moving parts. The Alfine hubs are also tempting me, especially the 11 gear one.
-* Proper lights. See and be seen!
+* ~~Proper lights. See and be seen!~~
 * A more retro looking shifter. The current twist shifter is very functional, but I think the look clashes a bit with the rest of the bike. 
 * Frame lock. I want a frame lock with an optional wire for locking the bike to stuff as well. Ideally one that can be keyed with a key I can use on more than one lock, so I don't have to carry around multiple keys.
 
