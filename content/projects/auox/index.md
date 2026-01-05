@@ -6,7 +6,7 @@ description="Because everything is better in the terminal."
 draft=false
 +++
 
-Short version: I made a terminal banking client for my personal banking needs with Rust, Ratatui and the PSD2-API's of my bank. I call it Auox, short for Aurum Oxidatum, a pseudo-latin name for [gold oxide](https://en.wikipedia.org/wiki/Gold(III)_oxide), or "gold rust". 
+Short version: I made a terminal banking client for my personal banking needs with Rust, Ratatui and the open and customer facing APIs of my bank. I call it Auox, short for Aurum Oxidatum, a pseudo-latin name for [gold oxide](https://en.wikipedia.org/wiki/Gold(III)_oxide), or "gold rust". 
 The code is on [GitHub](https://github.com/sverrejb/auox) if you want to take a look.
 
 The application looks like this:
@@ -23,7 +23,7 @@ The application looks like this:
 
 ## Longer version
 
-When I started out learning Rust, one of the first projects I tried to build was a CLI app for interfacing with my bank. This was a few years after the [PSD2-law](https://en.wikipedia.org/wiki/Payment_Services_Directive) went into effect, mandating banks to allow third party applications to access your banking data. The API's at that time were not well documented, and I was a very green developer learning a brand new language with a steep learning curve, so progress was slow. Before I had anything actully working, I ended up switching banks as well, and the project was abandoned. 
+When I started out learning Rust, one of the first projects I tried to build was a CLI app for interfacing with my bank. This was a few years after the [PSD2-law](https://en.wikipedia.org/wiki/Payment_Services_Directive) went into effect, mandating banks to allow third party applications to access your banking data. Some banks took it even further and allowed customers to access APIs themselves. The API's at that time were not well documented, and I was a very green developer learning a brand new language with a steep learning curve, so progress was slow. Before I had anything actully working, I ended up switching banks as well, and the project was abandoned. 
 
 I have since kept up with both the Rust language and ecosystem, and seen it grow and become a viable (and in many cases, the right) choice for a wide range of applications. Personally, I often put the carriage before the horse and choose Rust just because I like working with it and want to become better at using it, even if it is not the most pragmatic choice for a given project. This fall I have been hunting "the one that got away", and actually made a useful banking application.
 
