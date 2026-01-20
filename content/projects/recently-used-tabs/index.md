@@ -6,7 +6,7 @@ date="2026-01-17"
 
 I made a Firefox extension to make my life a tiny bit easier. I have dabbled in this before, but I have never published one.
 
-I have a problem with tabs. I often end up with too many open, and often several from the same site. So when I switch to a different tab to check something, and I want to go back, I am stuck scanning through a sea of tiny favicons trying to remember which one I were just on, as the title becomes truncated.
+I have a problem with tabs. I often end up with too many open, and often several from the same site. So when I switch to a different tab to check something, and I want to go back, I am stuck scanning through a sea of tiny favicons trying to remember which one I just left, as the title becomes truncated.
 
 ![Screenshot showing the extension in action.](tabs.png)
 
@@ -24,7 +24,7 @@ A background script tracks tab activation events per window and maintains a rece
 
 There are several indicator styles to choose from: simple numbers, colored circles, colored squares, moon phases, or define your own custom indicators.
 
-Ideally I wanted to rather color the the tabs with different hues, or add some other kind of styling, but this is currently not possible, and [the issue](https://bugzilla.mozilla.org/show_bug.cgi?id=1320585) on this possible feature is nine years old...
+Ideally I wanted to rather color the tabs with different hues, or add some other kind of styling, but this is currently not possible, and [the issue](https://bugzilla.mozilla.org/show_bug.cgi?id=1320585) on this possible feature is nine years old...
 
 ## Permissions
 
