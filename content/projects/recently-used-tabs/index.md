@@ -6,7 +6,7 @@ date="2026-01-17"
 
 I made a Firefox extension to make my life a tiny bit easier. I have dabbled in this before, but I have never published one.
 
-I have a problem with tabs. I often end up with too many open, and often several from the same site. So when I switch to a different tab to check something, and when I want to go back, I am stuck scanning through a sea of tiny favicons trying to remember which one I were just on, as the title becomes truncated.
+I have a problem with tabs. I often end up with too many open, and often several from the same site. So when I switch to a different tab to check something, and I want to go back, I am stuck scanning through a sea of tiny favicons trying to remember which one I were just on, as the title becomes truncated.
 
 ![Screenshot showing the ](tabs.png)
 
