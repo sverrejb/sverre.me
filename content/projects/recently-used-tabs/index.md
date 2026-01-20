@@ -8,7 +8,7 @@ I made a Firefox extension to make my life a tiny bit easier. I have dabbled in 
 
 I have a problem with tabs. I often end up with too many open, and often several from the same site. So when I switch to a different tab to check something, and I want to go back, I am stuck scanning through a sea of tiny favicons trying to remember which one I were just on, as the title becomes truncated.
 
-![Screenshot showing the ](tabs.png)
+![Screenshot showing the extension in action.](tabs.png)
 
 So I made a Firefox extension that tracks the 5 most recently used tabs and adds visual indicators to the start of the titles. The most recent tab gets a red circle 🔴, the next one an orange circle 🟠, and so on. This makes them stand out and easy to spot.
 
@@ -20,7 +20,7 @@ And yes, I know that Firefox has an option to have `ctrl`+`tab` cycle through re
 
 A background script tracks tab activation events per window and maintains a recency list. When you switch tabs, it sends messages to content scripts that modify the document titles by adding prefix indicators. Each browser window maintains its own independent tracking.
 
-![](options.png)
+![Screenshot showing the options of the extension.](options.png)
 
 There are several indicator styles to choose from: simple numbers, colored circles, colored squares, moon phases, or define your own custom indicators.
 
