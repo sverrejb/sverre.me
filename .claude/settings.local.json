@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(zola build:*)",
+      "WebFetch(domain:www.getzola.org)",
+      "WebFetch(domain:github.com)"
+    ]
+  }
+}

@@ -85,6 +85,8 @@ I
 
 Vipps
 Mobilbank
+BankID
+Maps?
 
 
 ## First Impressions
