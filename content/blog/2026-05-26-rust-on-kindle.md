@@ -38,7 +38,7 @@ After a lot of debugging of no visible output, screen not refreshing, double ref
 
 {{ lightbox (img_name="kindle_slint.jpg", alt="Our dog, Luna", width=1000) }}
 
-With an seemingly working (at least for my specific device, it will probably need adjustments for other Kindle versions) kindle-backend for Slint, I extracted the relevant code into a separate crate and published it on [https://crates.io/crates/slint-backend-kindle](crates.io).
+With an seemingly working (at least for my specific device, it will probably need adjustments for other Kindle versions) kindle-backend for Slint, I extracted the relevant code into a separate crate and published it on [crates.io](https://crates.io/crates/slint-backend-kindle).
 
 With that in order, I just need to draw the rest of the owl (dashboard). That will be another time.
 
