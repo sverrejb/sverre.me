@@ -36,7 +36,7 @@ The Kindle uses the Linux kernel's [multi-touch protocol type B](https://www.ker
 
 After a lot of debugging of no visible output, screen not refreshing, double refresh flashes, touch input not registering, touch input registering twice and lots of more bugs I had a counter and a increment button.
 
-{{ lightbox (img_name="kindle.jpg", alt="Our dog, Luna", width=1000) }}
+{{ lightbox (img_name="kindle_slint.jpg", alt="Our dog, Luna", width=1000) }}
 
 With an seemingly working (at least for my specific device, it will probably need adjustments for other Kindle versions) kindle-backend for Slint, I extracted the relevant code into a separate crate and published it on [https://crates.io/crates/slint-backend-kindle](crates.io).
 
