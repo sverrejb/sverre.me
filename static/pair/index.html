@@ -1,0 +1,24 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pair with bru</title>
+<style>
+  body { font-family: system-ui, sans-serif; max-width: 30rem; margin: 4rem auto; padding: 0 1rem; line-height: 1.5; }
+  .note { color: #888; font-size: .9em; }
+  code { background: #f0f0f0; padding: 0 .25em; border-radius: 3px; }
+</style>
+
+<h1>Pair with bru</h1>
+
+<p>If the bru app were installed, this link would have opened it and paired your
+phone automatically. Since you're seeing this page, it isn't installed yet.</p>
+
+<p>Install bru, then scan the QR code again:</p>
+
+<!-- TODO: install source — self-hosted F-Droid repo or direct APK (bru-spec.md §4.4).
+     The F-Droid build's signing fingerprint must also be added to
+     /.well-known/assetlinks.json, or App Links won't auto-verify for that build. -->
+<p><a href="#">Install bru</a></p>
+
+<p class="note">Your pairing token is in this link's <code>#fragment</code>, which your
+browser never sends to this server — so it stays private even on this page.</p>
