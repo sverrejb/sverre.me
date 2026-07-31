@@ -17,7 +17,7 @@ I found myself wanting an alternative, but every app I tried either sucked, trie
 
 ## Small
 
-One of my biggest gripes with the alternatives I surveyed was that they all were in the several megabytes in size, some up to 50 megabytes. My first and most important goal with this project was that the app would be less than one megabyte in size. Keeping the used dependencies to a minimum is an increasingly important factor in software development these days, so this would be a win in several ways. The only dependency is ZXing, for the actual barcode encoding and decoding, since reinventing that particular wheel was a bridge too far (although probably an interesting project in its own right...).
+One of my biggest gripes with the alternatives I surveyed was that they all were in the range of several megabytes in size, some up to 50 megabytes. My first and most important goal with this project was that the app would be less than one megabyte. Keeping the used dependencies to a minimum is an increasingly important factor in software development these days, so this would be a win in several ways. The only dependency is ZXing, for the actual barcode encoding and decoding, since reinventing that particular wheel was a bridge too far (although probably an interesting project in its own right...).
 
 The finished app weighs in at **211 KB**, and this pleases me quite a lot.
 
