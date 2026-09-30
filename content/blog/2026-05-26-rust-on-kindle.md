@@ -5,8 +5,9 @@ date = 2026-05-26
 
 I recently jailbroke my 7th generation Kindle Paperwhite. While my motivation probably should have been "breaking free from Amazon's clammy and tightening grip", the truth is I wanted a way to use it as a clock on my nightstand. I found [this project](https://github.com/byronknoll/kindle-clock) and figured I could just make some adjustments to the code. And that worked _fine_. But as I now had opened the door, I started thinking about if I could get Rust to work on the Kindle as well. Maybe I could do more useful stuff with it? As I have recently started to tinker with Home Assistant and smart devices again, the idea of a dashboard for some of the features could be a fun project. And while there are probably many _perfectly fine_ projects out there, _I_ haven't made any of those.
 
-> Telling a programmer there's already a library to do X is like telling a songwriter there's already a song about love.  
->  -Pete Cordell
+> Telling a programmer there's already a library to do X is like telling a songwriter there's already a song about love.
+>
+> — Pete Cordell
 
 ## Cross compiling Rust for the Kindle
 After some research I found out that I needed to target ARMv7 and musl libc. I have [dabbled with Rust on ARM machines](../../projects/infoscreen/) before, and know from painful experience that getting the Rust compilation toolchain to work on such low-powered devices is a non-starter. Luckily there are great tools for cross compilation. My go-to for cross compiling Rust is, rather ironically, `cargo-zigbuild`. The Zig compiler ships with musl libc sources and headers built in, for all supported architectures. It also has its own linker, so zig cc can act as a complete cross-compile toolchain for any musl target, on any host. Compiling for the Kindle becomes as easy as:

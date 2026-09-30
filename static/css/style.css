@@ -282,3 +282,30 @@ a[href^='#lightbox-'] {
     display: block !important;
   }
 }
+/* pull-quote look on top of suCSS's italic + accent border */
+blockquote {
+  position: relative;
+  margin: 2rem 0;
+  padding: 1rem 1.5rem 1rem 3.5rem;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: var(--text);
+  background-color: color-mix(in srgb, var(--accent) 8%, transparent);
+  border-radius: 0 var(--standard-border-radius) var(--standard-border-radius) 0;
+}
+
+blockquote::before {
+  content: "\201C";
+  position: absolute;
+  top: -0.25rem;
+  left: 0.75rem;
+  font-size: 4.5rem;
+  line-height: 1;
+  color: var(--accent);
+}
+
+/* attribution line; :not(:first-child) keeps single-paragraph quotes left-aligned */
+blockquote p:last-child:not(:first-child) {
+  text-align: right;
+}
